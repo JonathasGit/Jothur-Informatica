@@ -38,7 +38,7 @@
                 <!--Formulário com multiplas escolhas-->
                 <h3>Formulário com multiplas escolhas</h3>
                 <p><form action="email@email.com">Nome: <input type="text" name="nome" size="25" maxlength="50"></p>
-                    <p>N° do cartão de crédito<input type="text" name="num_cartap" size="16"></p>
+                    <p>N° do cartão de crédito<input type="text" name="num_cartao" size="16"></p>
                     <p>Senha<input type="password" name="senha" size="6"></p>
                     <p>Selecione a bandeira do cartão de crédito:</p><br>
                     <input type="radio" name="selecao-cartao2" checked>Visa <br>
@@ -55,13 +55,33 @@
 
                 <!--Formulário com caixa de seleção maior-->
                 <h3> Caixa de texto: </h3> <hr>
+                <form action="email@email.com">
+                    <p>Nome: <input type="text" name="nome" size="25" maxlength="50" > </p> <!--Colocando o campo-->
+                    <p>Sobrenome: <input type="text" name="sobrenome" size="25" maxlength="50"></p>
+                    <p>Rua: <input type="text" name="rua" size="15" maxlength="35">  
+                        Número: <input type="number" name="num" size="5" maxlength="4">
+                        Bairro: <input type="text" name="bairro" size="20" maxlength="40">
+                    </p>
+                    <p>Cidade: <input type="text" name="cidade" size="15" maxlength="20">
+                        Estado: <input type="text" name="UF" size="2" value="SP">                    
+                    </p>
+                    <p>N° Cartão de crédito <input type="text" name="cartao" size="11" maxlength="12"> </p>
+                    <p>Senha: <input type="password" name="senha" size="6" maxlength="6"></p>
 
 
+
+
+
+                </form>
+
+
+
+                <!--Exercicio da aula-->
                 <h1 align="center">Exercicio</h1><hr>
                 <p>Aqui será o exercicio da aula</p>
                 <form action="email@email.com">
                     <p>Nome: <input type="text" name="nome" size="20" maxlength="50"> </p>
-                    <p>E-mail: <input type="text" name="cpf" size="20" maxlength="11"></p>
+                    <p>E-mail: <input type="text" name="cpf" size="20" maxlength="25"></p>
                     <p>Sexo: <input type="radio" name="selecao1" checked>Masculino <input type="radio" name="selecao1" checked>Feminino</p>
                     <p>RG</p>
                     <p>CPF</p>
