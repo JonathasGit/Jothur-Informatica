@@ -22,7 +22,7 @@
                 <h3>Radio Buttons - Seleção de uma única opção</h3><hr>
 
 
-                <!--Terceiro formulario, com escolhas-->
+                <!--Terceiro formulario, com escolhas (apenas 1 pode ser selecionada)-->
                 <form action="email@email.com"  method="GET">
                     <p><font face="Calibri">Nome : <input type="text" name="nome" size="25" maxlength="50"></p>
                         <p>N° do cartão de crédito <input type="text" name="num_cartao" size="16"></p>
@@ -34,6 +34,25 @@
                         <input type="radio" name="selecao-cartao" checked>Elo
                 </form>
                 <hr>
+
+                <!--Formulário com multiplas escolhas-->
+                <h3>Formulário com multiplas escolhas</h3>
+                <p><form action="email@email.com">Nome: <input type="text" name="nome" size="25" maxlength="50"></p>
+                    <p>N° do cartão de crédito<input type="text" name="num_cartap" size="16"></p>
+                    <p>Senha<input type="password" name="senha" size="6"></p>
+                    <p>Selecione a bandeira do cartão de crédito:</p><br>
+                    <input type="radio" name="selecao-cartao2" checked>Visa <br>
+                    <input type="radio" name="selecao-cartao2" checked>Mastercard <br>
+                    <input type="radio" name="selecao-cartao2" checked>Outro <br>
+                    <input type="radio" name="selecao-cartao2" checked>Elo <br>
+                    <p>Selecione o horário de entrada: </p>
+                    <input type="checkbox" name="horario1" size="1">8h as 12h <br>
+                    <input type="checkbox" name="horario2" size="1">13h as 15h<br>
+                    <input type="checkbox" name="horario3" size="1">16h as 18h<br>
+                    <input type="checkbox" name="horario4" size="1">Outros<br>
+                </form>
+
+                
 
 
         </body>
