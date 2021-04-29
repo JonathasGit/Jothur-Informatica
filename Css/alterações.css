@@ -1,6 +1,9 @@
 body{
     background-color: gray;
 }
+.navbar{ /* Cor do menu de  navegação */
+    background-color: gray;
+}
 
 .imagem{
  margin-bottom: 10px;
@@ -9,4 +12,12 @@ body{
 }
 .home{
     text-align: center;
+}
+.mod{  /* Cor da navegação */
+    color: red;  
+    
+}
+.margin{
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
