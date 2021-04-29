@@ -21,3 +21,8 @@ body{
     padding-top: 50px;
     padding-bottom: 10px;
 }
+
+.bg-footer{
+    background-color: #FE2E2E;
+    color:black;
+}
